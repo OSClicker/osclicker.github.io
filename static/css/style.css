@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+
+header {
+    background-color: hsl(240, 100%, 58%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo {
+    margin-right: 120px;
+}
+
+header a {
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+    text-decoration: none;
+    margin: 4px;
+}
+
+header a:hover {
+    text-decoration: underline;   
+}
+
+main {
+    padding: 15px 45px;
+}
+
+h1 {
+    margin-top: 10px;
+}
+
+.news {
+    padding: 10px;
+    background-color: rgb(201, 201, 201);
+    border-radius: 3px;
+    width: fit-content;
+}
+
+#newsPost {
+    padding: 8px;
+    margin: 2px;
+    background-color: gainsboro;
+    border-radius: 18px;
+}
+
+#newsPost label {
+    margin: 0;
+    color: darkcyan;
+}
+
+#newsPost h3 {
+    margin: 0;
+}
+
+#newsPost p {
+    margin: 2px;
+}
+
+main a {
+    color: darkorchid;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+table {
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px;
+    border: 3px solid hsl(0, 0%, 87%);
+}
+
+table td, th {
+    border: 3px solid hsl(0, 0%, 87%);
+    padding: 6px;
+}
+
+@media screen and (max-width: 1280px) {
+    header .logo {
+        margin-right: 60px;
+    }
+
+    body, main, header {
+        overflow-x: hidden;
+    }
+}
